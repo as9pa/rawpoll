@@ -1,6 +1,6 @@
 # rawpoll for Minecraft 1.8.9
 
-**High polling rate support for Minecraft 1.8.9 (Forge).** Play at 2000, 4000 or 8000 Hz without the camera jitter and FPS collapse that vanilla 1.8.9 gets above 1000 Hz.
+**Any polling rate support for Minecraft 1.8.9 (Forge).** Use your mouse at any polling rate without the camera jitter and FPS collapse that vanilla 1.8.9 gets above 1000 Hz.
 
 Forge 1.8.9, Windows, client side only.
 

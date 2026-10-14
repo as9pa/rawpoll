@@ -2,7 +2,7 @@
   {
     "modid": "${modid}",
     "name": "rawpoll",
-    "description": "Smooth camera at 2000-8000 Hz mouse polling rates in Minecraft 1.8.9. Raw input on its own thread, no legacy mouse message flood.",
+    "description": "Smooth camera at any mouse polling rate in Minecraft 1.8.9. Raw input on its own thread, no legacy mouse message flood.",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "https://github.com/as9pa/rawpoll",
