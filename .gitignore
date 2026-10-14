@@ -1,0 +1,10 @@
+build/
+.gradle/
+run/
+.vscode/
+.idea/
+*.iml
+out/
+Desktop.ini
+Thumbs.db
+.DS_Store
