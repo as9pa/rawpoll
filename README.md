@@ -25,12 +25,12 @@ Measured on the same PC while flicking at 8000 Hz:
 
 1. Install [Forge 1.8.9](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html) (tested on 11.15.1.2318).
 2. Put `rawpoll-1.0.0.jar` in `%APPDATA%\.minecraft\mods\`.
-3. Launch the Forge profile. `logs\latest.log` should contain `Raw input is active`.
+3. Launch the Forge profile.
 
 ## Compatibility
 
 - Windows only. Elsewhere the mod does nothing and vanilla input stays.
-- Forge only. Lunar, Badlion and other clients that don't load Forge mods can't use it.
+- Requires Forge 1.8.9. Lunar Client (now including Badlion) can load Forge mods; rawpoll has not been tested there yet.
 - Tested at 1000, 2000, 4000 and 8000 Hz.
 
 ## Config
