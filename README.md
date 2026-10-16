@@ -1,6 +1,6 @@
 # rawpoll for Minecraft 1.8.9
 
-**Any polling rate support for Minecraft 1.8.9 (Forge).** Use your mouse at any polling rate without the camera jitter and FPS collapse that vanilla 1.8.9 gets above 1000 Hz.
+**Any polling rate support for Minecraft 1.8.9 (Forge).** Play at 8000 Hz with no stutters. Vanilla 1.8.9 freezes for 100+ ms at a time when a high polling rate mouse moves; rawpoll removes those stalls.
 
 **[Download](https://github.com/as9pa/rawpoll/releases/latest)** (Forge 1.8.9, Windows, client side only)
 
@@ -17,9 +17,11 @@ Measured on the same PC while flicking at 8000 Hz:
 
 | | Vanilla 1.8.9 input | rawpoll |
 | --- | --- | --- |
-| FPS while moving the mouse | 42 to 65 | 510 to 1200 |
 | Worst main thread stall per second | 50 to 110 ms | 2 to 11 ms |
 | Worst frame time per second | 60 to 195 ms | 4 to 12 ms |
+| FPS while moving the mouse | 42 to 65 | 510 to 1200 |
+
+With rawpoll, FPS while moving the mouse is whatever your PC normally runs; the input no longer drags it down.
 
 ## Install
 
